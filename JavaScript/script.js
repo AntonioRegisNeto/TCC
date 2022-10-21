@@ -1,0 +1,1 @@
+meuStorage = localStorage;
