@@ -1,3 +1,6 @@
+
+                                  /*  Seach Button  */
+
 window.onload = () => {
   const searchEl = document.querySelector('.search-input');
   const x = document.querySelectorAll('.card-content h3');
@@ -14,3 +17,5 @@ window.onload = () => {
 
   searchEl.addEventListener('keyup', search)
 };
+
+                                  /*  Foward Page */
