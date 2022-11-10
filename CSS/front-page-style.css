@@ -166,7 +166,7 @@ section .card .image img{
     position: relative;
     background: #ffff;
     border-radius: 20px;
-    margin: 130px 130px;
+    margin: 130px 14%;
     
 }
 .card::before{
@@ -260,14 +260,18 @@ section .card-item{
 }
 .card-item img{
     width: 80%;
+    margin-left: 15px;
+    margin-top: 10px;
 }
 .card-item h3{
     width: 100%;
+    margin-bottom: 10px;
 }
 .conta-item p{
     width: 90%;
     font-style: italic;
     color: 00000070;
+    margin-bottom: 30px;
 }
 .card-item button{
     width: 90%;
@@ -279,7 +283,8 @@ section .card-item{
     font-weight: bold;
     font-size: 1.1em;
     transition: 0.3s ease;
-    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 5px;
 }
 .card-item button:hover{
     background: darkgray;
