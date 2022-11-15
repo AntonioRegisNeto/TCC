@@ -264,6 +264,7 @@ section .card-item{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
 }
 .card-content{
     height: 40%;
@@ -278,7 +279,7 @@ section .card-item{
     width: 80%;
     margin-left: 15px;
     margin-top: 10px;
-    max-width: 300px;
+    max-width: 3000000px;
     max-height: 130px;
 }
 .card-item h3{
@@ -291,9 +292,12 @@ section .card-item{
     font-style: italic;
     color: 00000070;
     margin-bottom: 30px;
+    text-align: center;
 }
 .card-item button{
     width: 90%;
+    min-width: 200px;
+    max-width: 200px;
     padding: 15px 0px;
     border: none;
     background-color: var(--blue);
@@ -310,6 +314,7 @@ section .card-item{
     color: var(--blue);
     transform: scale(1.1)
 }
+
 
 /*About Us*/
 
@@ -361,13 +366,13 @@ section .card-item{
     justify-content: flex-start;
     padding-top: 10%;
 }
+.right:hover{
+    transform: scale(1.15)
+}
 .right h3{
     text-align: right;
     width: 90%;
     margin-bottom: 20px;
-}
-.right h3:hover{
-    transform: scale(1.1)
 }
 
 .right p{
@@ -375,11 +380,10 @@ section .card-item{
     font-size: 1.1em;
     letter-spacing: 0.3px;
     text-align: right;
-    color: rgba(0, 0, 0, 0.4);
+    color: hsla(0, 0%, 0%, 0.500);
 }
-.right p:hover{
-    transform: scale(1.1)
-}
+
+
 
 /*  Features  */
 
@@ -421,6 +425,8 @@ section .card-item{
     border: 1px solid #dedede30;
     border-radius: 4px;
 }
+
+
 
 /**Action Button**/
 
