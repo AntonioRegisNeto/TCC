@@ -120,7 +120,7 @@ nav ul li a:hover{
   position: absolute;
   right: 3%;
   bottom: 6.5%;
-  top: 2%;
+  top: 18%;
 }
 .header-block .img-top{
   display: none;
@@ -154,6 +154,7 @@ nav ul li a:hover{
   text-align: center;
 }
 .header-block .text p{
+  font-size: 1.2em;
   max-width: 280px;
   color: black;
   text-align: right;
@@ -179,8 +180,8 @@ nav ul li a:hover{
 .left-column img {
   width: 60%;
   position: absolute;
-  Right: 41%;
-  top: 10;
+  right: 42.5%;
+  top: 40px;
   opacity: 1;
   transition: 0.5s all ease-in-out
 }
@@ -277,11 +278,7 @@ nav ul li a:hover{
   --slice-4: inset(40% -6px 43% 0);
   --slice-5: inset(80% -6px 5% 0);
   
-  /*TEXT GLITCH*/
-  
   content: '';
-
-  /*TEXT GLITCH*/
   display: block;
   position: absolute;
   top: 0;
