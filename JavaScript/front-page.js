@@ -7,7 +7,7 @@ window.onload = () => {
 
   function search(e){
     x.forEach((item,index) => {
-      if(!item.innerHTML.toLowerCase().includes(e.target.value)){
+      if(!item.innerHTML.toString().includes(e.target.value)){
         item.parentElement.parentElement.style.display = 'none';
       }else {
         item.parentElement.parentElement.style.display = 'block';
