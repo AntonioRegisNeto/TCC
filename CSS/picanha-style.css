@@ -203,14 +203,17 @@ nav ul li a:hover{
   .product-description h1 {
     font-weight: 300;
     font-size: 52px;
-    color: #43484D;
+    color: #50555a;
     letter-spacing: -2px;
   }
   .product-description p {
     font-size: 16px;
     font-weight: 300;
-    color: #86939E;
+    color: #3e4449;
     line-height: 24px;
+  }
+  .product-description:hover {
+    transform: scale(1.1);
   }
 
   .loja{
@@ -274,7 +277,7 @@ nav ul li a:hover{
   --slice-4: inset(40% -6px 43% 0);
   --slice-5: inset(80% -6px 5% 0);
   
-  content: '40% Off';
+  content: '20% OFF';
   display: block;
   position: absolute;
   top: 0;
@@ -345,6 +348,7 @@ nav ul li a:hover{
     height: 86px;
     line-height: 88px;
   }}
+
 
 
     /*Action Button*/
