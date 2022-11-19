@@ -182,7 +182,7 @@ section .card .image img{
     content: "";
     position: absolute;
     height: 100%;
-    width: 99%;
+    width: 100%;
     background: linear-gradient(darkslategray, darkgray, gray);
     border-radius: 20px 20px 20px 20px;
 }
