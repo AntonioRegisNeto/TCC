@@ -525,3 +525,7 @@ html, body {
   background: #493f2f;
   box-shadow: 0 20px 20px -10px rgba(49, 44, 36, 0.5);
 }
+.floating-container .float-element:nth-child(3) {
+    background: #493f2f;
+    box-shadow: 0 20px 20px -10px rgba(49, 44, 36, 0.5);
+  }
