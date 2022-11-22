@@ -1,11 +1,8 @@
-$(document).ready(function() {
- 
-    $('.color-choose input').on('click', function() {
-        var headphonesColor = $(this).attr('data-image');
-   
-        $('.active').removeClass('active');
-        $('.left-column img[data-image = ' + headphonesColor + ']').addClass('active');
-        $(this).addClass('active');
-    });
-   
-  });
+const prices = [10, 20, 30, 60];
+document.querySelectorAll('button').forEach((button, index) => {
+
+    button.addEventListener('click', () => {
+        document.getElementById('sell').innerText = `${prices[index]}$`
+    })
+
+})  

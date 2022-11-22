@@ -73,6 +73,7 @@ nav ul li a{
     text-decoration: none;
     text-size-adjust: 25px;
     text-decoration: solid;
+    font-size: 19px;
 }
 
 nav ul li a:hover{
