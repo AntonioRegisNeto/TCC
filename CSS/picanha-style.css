@@ -218,6 +218,7 @@ nav ul li a:hover{
   }
 
   .loja{
+    min-width: 149px;
     background-image: linear-gradient(92.88deg,rgb(131, 129, 129), rgb(45, 77, 77), rgb(45, 77, 77), darkslategray);
       border-radius: 8px;
       border-style: none;
