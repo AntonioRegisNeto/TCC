@@ -1,8 +1,10 @@
-const prices = 94.48, 30, 60;
-document.querySelectorAll('button').forEach((button, index) => {
+addEventListener("load", () => {
+    const prices = [94.48, 20, 30];
+document.querySelectorAll('.loja').forEach((loja, index) => {
 
-  button.addEventListener('click', () => {
-    document.getElementById('sell').innerText = `${prices[index]}$`;
-  });
+  loja.addEventListener('click', () => {
+    document.getElementById('sell').innerText = `R$${prices[index]}`;
+    });
 
+    });
 });

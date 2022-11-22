@@ -263,7 +263,7 @@ nav ul li a:hover{
 
     .sell,
 .sell:after {
-  width: 150px;
+  width: 160px;
   height: 76px;
   margin-top: 18px;
   line-height: 78px;
@@ -360,7 +360,7 @@ nav ul li a:hover{
 @media (min-width: 768px) {
   .sell,
   .sell:after {
-    width: 200px;
+    width: 210px;
     height: 86px;
     line-height: 88px;
   }}

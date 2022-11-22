@@ -1,4 +1,4 @@
-const prices = [94.48, 20, 30, "Not Choosen"];
+const prices = [94.48, 20, 30];
 document.querySelectorAll('.loja').forEach((loja, index) => {
 
   loja.addEventListener('click', () => {

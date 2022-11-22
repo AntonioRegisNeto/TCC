@@ -219,6 +219,7 @@ nav ul li a:hover{
   }
 
   .loja{
+    min-width: 149px;
     background-image: linear-gradient(92.88deg,rgb(131, 129, 129), rgb(45, 77, 77), rgb(45, 77, 77), darkslategray);
       border-radius: 8px;
       border-style: none;
@@ -250,10 +251,20 @@ nav ul li a:hover{
       }
     }
 
+    .loja:active{
+      background: linear-gradient(60deg, transparent 10%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);  
+    }
+    .loja:focus{
+      background: linear-gradient(60deg, transparent 10%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+    }
+    .loja:target{
+      background: linear-gradient(60deg, transparent 10%, #00E6F6 20%, #00E6F6 5%, #FF013C 5%, #00E6F6 20%, #00E6F6 5%);
+    }
+  
 
     .sell,
 .sell:after {
-  width: 150px;
+  width: 160px;
   height: 76px;
   margin-top: 18px;
   line-height: 78px;
@@ -279,7 +290,11 @@ nav ul li a:hover{
   --slice-4: inset(40% -6px 43% 0);
   --slice-5: inset(80% -6px 5% 0);
   
+  /*TEXT GLITCH*/
+  
   content: '';
+
+  /*TEXT GLITCH*/
   display: block;
   position: absolute;
   top: 0;
@@ -346,7 +361,7 @@ nav ul li a:hover{
 @media (min-width: 768px) {
   .sell,
   .sell:after {
-    width: 200px;
+    width: 210px;
     height: 86px;
     line-height: 88px;
   }}
