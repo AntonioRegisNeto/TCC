@@ -251,9 +251,14 @@ nav ul li a:hover{
 
     .loja:active{
     background-image: linear-gradient(92.88deg,rgb(23, 99, 8), rgb(45, 77, 77), rgb(45, 77, 77), darkslategray);
- 
     }
-
+    .loja:focus{
+      background-image: linear-gradient(92.88deg,rgb(23, 99, 8), rgb(45, 77, 77), rgb(45, 77, 77), darkslategray);
+    }
+    .loja:target{
+      background-image: linear-gradient(92.88deg,rgb(23, 99, 8), rgb(45, 77, 77), rgb(45, 77, 77), darkslategray);
+      }
+  
 
     .sell,
 .sell:after {
