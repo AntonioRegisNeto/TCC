@@ -346,6 +346,12 @@ section .card-item{
     align-items: center;
     justify-content: space-between;
 }
+.title-wrapper-about{
+    font-size: 18px;
+    text-align: left;
+    font-family: 'roboto', 'oswald';
+    margin-left: 1%;
+}
 .left{
     width: 25%;
     min-width: 300px;
