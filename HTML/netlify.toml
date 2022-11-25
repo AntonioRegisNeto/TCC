@@ -1,5 +1,4 @@
 [[redirects]]
-  from = "*"
-  to = "404error"
+  from = "/*"
+  to = "HTML/404error.html"
   status = 404
-  force = true
