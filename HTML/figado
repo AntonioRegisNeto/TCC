@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Linking CSS/JS-->
+    <link rel="stylesheet" href="../CSS/picanha-style.css">
+    <script src="../JavaScript/picanha.js" async defer></script>
+      <!--Logo-->
+    <link rel="shortcut icon" href="../Mídias/logo.png">
+      <!--Title-->
+    <title>Açougue QC - Picanha</title>
+
+</head>
+<body>
+  <header> <!---Header-->
+    <div class="content"> <!--content-->
+        <nav>
+            <p class="brand"><a class="links" href="../index.html">Açougue <strong> QC</strong></p>
+            <ul>
+                <li><a href="../index.html#catalog">Catálogo</a></li>
+                <li><a href="../index.html#about">Sobre nós</a></li>
+            </ul>
+        </nav>
+        <div class="header-block"> <!--header-block-->
+            <div class="text">
+                <h2><strong>Picanha</strong></h2>
+                <p>A Picanha é um tipo de corte de carne bovina tipicamente brasileira.
+                A origem do nome Picanha advém do tratamento talhante Italiano, nomeadamente do corte Picatta.
+                </p>
+            </div>
+            <div class="bois">
+            <img src="../Mídias/picanha.png" class='boi' alt="Boi" id='mapa'/>
+            <img src="../Mídias/picanha.jpg" class='img-top' alt="Mapa">
+            </div>
+        </div>
+    </div>
+  </header>
+        <main class="container">
+ 
+            <!-- Left Column / Picanha Image -->
+            <div class="left-column">
+              <img data-image="black" src="../Mídias/picanha.png" alt="">
+            
+            </div>
+           
+           
+            <!-- Right Column -->
+            <div class="right-column">
+           
+              <!-- Product Description -->
+              <div class="product-description">
+                <span>Bovinos</span>
+                <h1>Picanha</h1>
+                <p>O mais conhecido dos cortes, a Picanha tem pelo menos 80% 
+              de uniformidade na capa de gordura, muito sabor, maciez e suculência.</p>
+              </div>
+           
+              <!-- Product Configuration -->
+              <div class="product-configuration">
+           
+                </div>
+           
+                <!-- Loja/Price Configuration -->
+                <div class="lojas">
+                  <span>Lojas</span>
+           
+                  <div class="cable-choose">
+                    <button class="loja">Hiper Queiroz</button>
+                    <button class="loja">Atacadão</button>
+                    <button class="loja">Maxxi Atacado</button>
+                  </div>
+           
+                  <a><button class="sell" id="sell">Não selecionado</button></a>
+                </div>
+              </div>
+
+           <!---Action Button--->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <div class="floating-container">
+      <div class="floating-button">+</div>
+      <div class="element-container">
+    
+        <a href="https://wa.me/"> <span class="float-element tooltip-left">
+          <i class="fa fa-whatsapp my-float">
+          </i></a>
+        </span>
+          <span class="float-element">
+          <i class="fa fa-google my-float">
+    </i>
+        </span>
+        <a class="links" href="../HTML/picanha.html"><span class="float-element">
+          <i class="fa fa-home my-float"></i></a>
+        </span>
+      </div>
+    </div>
+    
+</body>
+</html>
