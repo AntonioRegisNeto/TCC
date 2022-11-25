@@ -1,4 +1,0 @@
-[[redirects]]
-  from = "html/*"
-  to = "HTML/404error.html"
-  status = 404
