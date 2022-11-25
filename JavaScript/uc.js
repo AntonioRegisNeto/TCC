@@ -1,5 +1,3 @@
-
- 
 const title = document.querySelector('.error_title')
 
 
