@@ -121,13 +121,13 @@ nav ul li a:hover{
   position: absolute;
   right: 3%;
   bottom: 6.5%;
-  top: 2%;
+  top: 10%;
 }
 .header-block .img-top{
   display: none;
   position: absolute;
   right: 3%;
-  bottom: 22%;
+  bottom: 30%;
   top: 15%;
 
 }

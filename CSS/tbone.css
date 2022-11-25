@@ -117,16 +117,17 @@ nav ul li a:hover{
 }
 
 .header-block img{
-  width: 50%;
+  width: 40%;
   position: absolute;
   right: 3%;
   bottom: 6.5%;
-  top: 2%;
+  top: 11%;
 }
 .header-block .img-top{
+    width: 54%;
   display: none;
   position: absolute;
-  right: 3%;
+  right: 2%;
   bottom: 22%;
   top: 15%;
 
@@ -178,7 +179,7 @@ nav ul li a:hover{
   }
   /* Left Column */
 .left-column img {
-  width: 55%;
+  width: 45%;
   position: absolute;
   Right: 50%;
   top: 10;
