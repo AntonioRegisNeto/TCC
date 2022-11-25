@@ -1,4 +1,4 @@
 [[redirects]]
-  from = "/*"
-  to = "HTML/404error.html"
+  from = "www://acougueqc.netlify.app/*"
+  to = "www://acougueqc.netlify.app/HTML/404error.html"
   status = 404
